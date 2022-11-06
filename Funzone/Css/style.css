@@ -1,3 +1,7 @@
+body {
+	 overflow-x: hidden;
+}
+
 .box-sub {
 	transition: 1s;
 	margin: 30px;
