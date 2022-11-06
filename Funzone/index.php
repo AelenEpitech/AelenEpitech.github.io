@@ -8,39 +8,11 @@
       <link rel="stylesheet" type="text/css" href="Css/style.css">
    </head>
    <body>
-      <!-- Navbar -->
-      <center>
-         <nav class="header-fayz navbar navbar-expand-lg">
-            <div class="container-fluid">
-               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="mx-auto navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="mx-auto navbar-nav">
-                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">| Accueil |</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Download</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Boutique</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Réseaux</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inscription</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Connexion</a>
-                     </li>
-                  </ul>
-               </div>
-            </div>
-         </nav>
-      </center>
-      <!-- Navbar -->
+      <?php
+
+      include "Includes/navbar.php";
+
+      ?>
       <div class="row main-box">
          <div class="col">
             <div class="box-sub box-sub-cover">
@@ -64,10 +36,10 @@
                <br>
                <h3 class="fcolorwhite text-center fw-light text-decoration-underline">Liens Utile :</h3>
                <p class="fcolorwhite text-center fw-lighter">Ci dessous, vous retrouverez les liens utiles pour jouer sur notre serveur dans de bonnes conditions, Si, malgré ces liens vous n'arrivez pas a jouer, ou que vous rencontrez un soucis, nous vous invitons a venir sur le discord afin de nous en parler, nous saurons vous aider</p>
-               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="">| Serveur Discord |</a></p>
-               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="">| Téléchargement du Jeu | </a></p>
-               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="">| Inscription |</a></p>
-               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="">| Notre Boutique|</a></p>
+               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="https://discord.gg/PxC9D6ZzMV">| Serveur Discord |</a></p>
+               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="https://drive.google.com/u/0/uc?id=1Rv6FQvoF-2guhLEOCK2psqbtzuaQVB_m&export=download">| Téléchargement du Jeu | </a></p>
+               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="register.php">| Inscription |</a></p>
+               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="shop.php">| Notre Boutique|</a></p>
                <br>
                <center>
                   <a href=""><img class="img-fluid img-main" src="Image/epvp.jpeg"></a>
@@ -124,7 +96,7 @@
                <p class="fcolorwhite text-center fw-lighter">I - Aziamafia | Lv 160
                <p class="fcolorwhite text-center fw-lighter">II - Aziamafia | Lv 160
                <p class="fcolorwhite text-center fw-lighter">III - Aziamafia | Lv 160
-               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="">| Lien du Classement |</a></p>
+               <p class="fcolorwhite text-center fw-lighter"><a class="nav-link" href="rank.php">| Lien du Classement |</a></p>
                <br>
             </div>
          </div>
