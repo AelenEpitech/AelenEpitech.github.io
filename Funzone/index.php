@@ -28,7 +28,7 @@
          </div>
          <div class="col">
             <div id="arrow-pos" class="arrow">
-               <a class="btn btn-max" href="#gotoback"><img class="img-fluid img-main-arrow" src="Image/ARROW.png"></a>
+               <a class="btn btn-max" href="#gotoback"><img class="img-fluid img-main-arrow" id="scrollArrow" src="Image/ARROW.png"></a>
             </div>
          </div>
          <div class="col">
@@ -90,10 +90,11 @@
          </div>
       </div>
       <div class="row second-box">
-         <div class="col">
+         <div id="rightArrows" class="col">
+            <img class="img-fluid lArrow" id="rightArrows-image" src="Image/ArrowRank.png">
          </div>
          <div id="box-2-1" class="col">
-            <div class="box-sub-sec box-sub-cover" id="gotoback">
+            <div class="box-sub-sec box-sub-cover" id="box-2-1-1">
                <br>
                <h3 class="fcolorwhite text-center fw-light text-decoration-underline">Classement :</h3>
                <p class="fcolorwhite text-center fw-lighter">Pour vous donner une idée de ce qu'est ChiasseZone, vous pouvez regarder notre classement :</p>
@@ -105,7 +106,8 @@
                <br>
             </div>
          </div>
-         <div class="col">
+         <div id="leftArrows" class="col">
+            <img class="img-fluid rArrow" id="leftArrows-image" src="Image/ArrowRank.png">
          </div>
       </div>
       <?php include "Includes/footer.php"; ?>
